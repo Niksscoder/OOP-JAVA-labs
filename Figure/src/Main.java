@@ -12,18 +12,18 @@ class Figura{
     double dim1;
     double dim2;
 
-    // konstruktora klasy Figura
+    // konstruktor klasy Figura(для того, что бы взаимодействовать с переменными класса)
     Figura(double x, double y){
         dim1 = x;
         dim2 = y;
     }
-
     // tworzymy metode
     double pole(){
         System.out.println("Pole figury nie jest okreslone !");
         return 0.0;
     }
 }
+
 
 
 class Prostokat extends Figura{ // extends czyli dziedziczenie klasy Figura
