@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
         double a,b,c,x1,x2;
         String opisR;
+        
         RK rownanie1 = new RK(1, 4, 1);
         // odlowywanie do metody (.rozwiazanie()) klasy RK
         rownanie1.rozwiazanie();
@@ -53,8 +54,14 @@ class RK {
         return 0;
     }
         // metoda get dla otrzymania danych z privat
-        double getX1() {return x1;}
-        double getX2() {return x2;}
-        String getOpisR() {return opisR;}
+        double getX1() {
+        return x1;
+    }
+        double getX2() {
+        return x2;
+    }
+        String getOpisR() {
+        return opisR;
+    }
 
 }
