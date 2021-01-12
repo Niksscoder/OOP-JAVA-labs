@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         double a,b,c,x1,x2;
         String opisR;
-        
+
         RK rownanie1 = new RK(1, 4, 1);
         // odlowywanie do metody (.rozwiazanie()) klasy RK
         rownanie1.rozwiazanie();
